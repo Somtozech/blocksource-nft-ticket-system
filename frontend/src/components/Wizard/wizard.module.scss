@@ -1,0 +1,36 @@
+.container * {
+  transition: all 0.3s ease-in-out;
+}
+
+.wizard-item {
+  background: #161717;
+  border: 2px solid rgba(184, 186, 191, 0.2);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.wizard-item.active {
+  width: 45px;
+  height: 45px;
+  border: none;
+  background: -webkit-linear-gradient(0deg, #6699ff, #ff3366 100%);
+}
+
+.wizard-item-bar {
+  background: #161717;
+  border: 2px solid rgba(184, 186, 191, 0.2);
+  width: 20px;
+  height: 6px;
+}
+
+.wizard-item-bar.active {
+  background: -webkit-linear-gradient(0deg, #6699ff, #ff3366 100%);
+  border: 2px solid rgba(184, 186, 191, 0.2);
+  width: 20px;
+  height: 6px;
+}

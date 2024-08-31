@@ -1,0 +1,17 @@
+.container {}
+
+.container .connect-btn {
+  display: flex;
+  color: white;
+  align-items: center;
+}
+
+.container .connect-btn span {
+  background: linear-gradient(90deg, #F26474 0%, #F46A49 48.88%, #FDCB97 100%);
+
+  /* background: -webkit-linear-gradient(45deg, #ffcc33, #e233ff 100%); */
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}

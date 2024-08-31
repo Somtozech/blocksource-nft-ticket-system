@@ -1,0 +1,28 @@
+.congrats__con {
+  //   border: 1px solid green;
+  h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    span {
+      background: -webkit-linear-gradient(45deg, #d6ff7f, #00b3cc 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  h5 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 5px;
+  }
+  .congrats__button__con {
+    margin-top: 87px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}

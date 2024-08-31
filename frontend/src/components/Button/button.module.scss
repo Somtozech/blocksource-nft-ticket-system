@@ -1,0 +1,99 @@
+.button__con {
+  width: 203px;
+  height: 62px;
+  background: linear-gradient(90deg, #f26474 0%, #f46a49 48.88%, #fdcb97 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+
+  &:disabled {
+    background: #9d9d9d;
+  }
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  .loader {
+    width: 20px;
+    height: 20px;
+    border: 4px solid #fff;
+    border-top: 5px solid transparent;
+    border-radius: 100%;
+    animation: load-animate infinite linear 0.5s;
+  }
+
+  @keyframes load-animate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(180deg);
+      opacity: 0.35;
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @-webkit-keyframes load-animate {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    50% {
+      transform: rotate(180deg);
+      opacity: 0.35;
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
+
+.sec__button__con {
+  width: 123px;
+  height: 50px;
+  border: 2px solid #b8babf;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #b8babf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.outline_button__con {
+  width: 239px;
+  height: 62px;
+  border: 1px solid #F46A49;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #b8babf;
+  background: linear-gradient(90deg, #F26474 0%, #F46A49 48.88%, #FDCB97 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}

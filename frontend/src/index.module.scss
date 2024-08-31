@@ -1,0 +1,47 @@
+.event_container {
+    background: #05161F;
+
+
+    .left_container {
+
+        h5 {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            color: #b8babf;
+        }
+
+        p {
+            font-family: Inter;
+        }
+
+        h1 {
+            font-family: Bricolage Grotesque 24pt;
+            font-size: 70px;
+            font-weight: 600;
+            line-height: 84px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            background: linear-gradient(90deg, #F26474 0%, #F46A49 48.88%, #FDCB97 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h6 {
+            font-family: Inter;
+            font-size: 25px;
+            font-weight: 500;
+            line-height: 49px;
+            letter-spacing: -0.02em;
+            text-align: left;
+
+        }
+    }
+
+    .right__con {
+        align-items: center;
+        justify-content: center;
+    }
+}
